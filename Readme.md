@@ -10,7 +10,7 @@ We will setup a conda environment , the main dependencies being mlflow, tensorfl
 
 ### Monitoring training runs with MLflow Tracking
 
-The experiment starts when we define MLflow context with *mlflow.start_run()*. The autolog function logs all parameters so it is not necessary to explicitly log parameters. 
+The experiment starts when we define MLflow context with **mlflow.start_run()**. The autolog function logs all parameters so it is not necessary to explicitly log parameters. 
 The experiment runs are available to be analysed and compared via the following command from the root folder:
 
 ``` mlflow ui ``` <br>
