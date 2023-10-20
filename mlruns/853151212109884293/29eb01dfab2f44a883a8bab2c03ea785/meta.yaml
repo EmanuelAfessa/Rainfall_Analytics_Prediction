@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/GIS_platforms/RAINWATCH_github/RAINWATCH/mlruns/853151212109884293/29eb01dfab2f44a883a8bab2c03ea785/artifacts
+end_time: 1697802794819
+entry_point_name: ''
+experiment_id: '853151212109884293'
+lifecycle_stage: active
+run_id: 29eb01dfab2f44a883a8bab2c03ea785
+run_name: suave-wren-846
+run_uuid: 29eb01dfab2f44a883a8bab2c03ea785
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697802789972
+status: 3
+tags: []
+user_id: emanu

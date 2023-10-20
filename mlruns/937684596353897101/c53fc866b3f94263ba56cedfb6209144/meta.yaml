@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/GIS_platforms/RAINWATCH_github/RAINWATCH/mlruns/937684596353897101/c53fc866b3f94263ba56cedfb6209144/artifacts
+end_time: 1697802726974
+entry_point_name: ''
+experiment_id: '937684596353897101'
+lifecycle_stage: active
+run_id: c53fc866b3f94263ba56cedfb6209144
+run_name: crawling-stoat-736
+run_uuid: c53fc866b3f94263ba56cedfb6209144
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697802720779
+status: 3
+tags: []
+user_id: emanu
