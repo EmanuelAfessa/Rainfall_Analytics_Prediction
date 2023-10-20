@@ -1,4 +1,4 @@
-# RAINWATCH : Rainfall analytics and prediction data science project
+# RAINWATCH : Rainfall analytics and prediction end to end ML project
 ## Project goal 
 The project showcases data science skills and technologies that can help monitor and predict volatile natural variables. Here we use python to build the back and front ends of a simple web app for rainfall analytics and prediction in the United States.
 <img src="assets/rainwatch_screenshot.png"/> 
