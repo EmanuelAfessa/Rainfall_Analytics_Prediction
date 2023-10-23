@@ -347,7 +347,7 @@ def update_graph(cities):
 
 def update_graph(cities):
     df_maps = df_map.loc[(df_map['StationCity']==cities)]  
-    fig = px.bar(df_maps, x= "Date.Full", y="Precipitation",  color_discrete_sequence=px.colors.sequential.Viridis, title='Precipitation Trend')
+    fig = px.line(df_maps, x= "Date.Full", y="Precipitation",   title='Precipitation Trend')
     fig.update_layout(font_color="white", bargap=0.2,yaxis_title="Amount of precipitation (inches)",xaxis_title="Days" , paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)" )
     return fig
 
