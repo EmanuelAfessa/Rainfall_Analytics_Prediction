@@ -8,7 +8,9 @@ The  machine learning aspects conducted with MLflow library.
 We will setup a conda environment , the main dependencies being mlflow, tensorflow and sklearn. MLflow can be installed using pip. The requirements.yaml file in this repository gives the complete list of set up requirements.
 
 ### Training models for precipitation prediction 
-Use the training scripts in the root folder. With **classic_ML_train.py** you options of non deep learning models like linear regression, XGBRegressor  etc... The **deep_ML_train.py** presents different architectures of neural networks. All models are in **models.py** and imported to the training scripts. 
+Use the training scripts in the root folder. With **classic_ML_train.py** you options of non deep learning models like linear regression, XGBRegressor  etc... The **deep_ML_train.py** presents different architectures of neural networks. All models are ![training](assets/mlflow_runs.png)in **models.py** and imported to the training scripts. 
+
+
 ### Monitoring training runs with MLflow Tracking
 
 The experiment starts when we define MLflow context with **mlflow.start_run()**. An experiment multiple runs ; each with different parameters. The autolog function logs all parameters so it is not necessary to explicitly log parameters. 
