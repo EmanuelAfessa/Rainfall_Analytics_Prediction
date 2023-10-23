@@ -36,3 +36,9 @@ The **experiment runs** are available to be analysed and compared via the follow
 Here is an example of a preview with a custom choice of parameters :
 
 ![tracking](assets/mlflow_runs.png)
+
+### Using libraries specific to time series forecasting 
+#### Pycaret 
+We use the **setup from pycaret.ts** to create a specific **time series experiment with automated training runs.** 
+This is launched with 
+``` best = compare_models(sort = 'MAE') ``` <br>
