@@ -3,12 +3,27 @@
 The project showcases data science skills and technologies that can help monitor and predict volatile natural variables. Here we use python to build the back and front ends of a simple web app for rainfall analytics and prediction in the United States.
 <img src="assets/rainwatch_screenshot.png"/> 
 ## Machine learning aspects  
-The  machine learning aspects conducted with MLflow library. 
+The  machine learning aspects conducted with MLflow library.
+
 ### Set Up
 We will setup a conda environment , the main dependencies being mlflow, tensorflow and sklearn. MLflow can be installed using pip. The requirements.yaml file in this repository gives the complete list of set up requirements.
 
-### Training models for precipitation prediction 
-Use the training scripts in the root folder. With **classic_ML_train.py** you options of non deep learning models like linear regression, XGBRegressor  etc... The **deep_ML_train.py** presents different architectures of neural networks. All models are ![training](assets/archi.png)in **models.py** and imported to the training scripts. 
+### Data
+
+The data has natural dependent variables like wind speed, wind direction, average temperature. The independent variable we want to forecast is the level of precipitation in inches on a given date. 
+
+### Understanding the prediction problem 
+Time series data is data collected on the same subject at different points in time. Time Series Forecasting real use cases include  forecasting of 
+* sales for stock management
+* server ressource usage 
+* epidemic outbreaks and health concerns
+* stock prices etc...
+
+Time series forecasting can be univariate or multivariate. The methods used can be classic statitics like ARIMA and SARIMA or Machine learning XGBoost, Random Forest or RNN, LSTM tec...
+
+### Training models
+Use the training scripts in the root folder. With **classic_ML_train.py** you options of non deep learning models like linear regression, XGBRegressor  etc... The **deep_ML_train.py** presents different architectures of neural networks. All models are and imported to the training scripts. After training models are saved in pickle format 
+ ![training](assets/archi.png)in **models.py** 
 
 
 ### Monitoring training runs with MLflow Tracking
