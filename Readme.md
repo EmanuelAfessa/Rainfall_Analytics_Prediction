@@ -23,7 +23,8 @@ Time series forecasting can be univariate or multivariate. The methods used can 
 
 ### Training models
 Use the training scripts in the root folder. With **classic_ML_train.py** you options of non deep learning models like linear regression, XGBRegressor  etc... The **deep_ML_train.py** presents different architectures of neural networks. All models are and imported to the training scripts. After training models are saved in pickle format 
- ![training](assets/archi.png)in **models.py** 
+in **models.py**
+ ![training](assets/archi.png) 
 
 
 ### Monitoring training runs with MLflow Tracking
