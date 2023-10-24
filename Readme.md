@@ -46,7 +46,3 @@ We use the **setup from pycaret.ts** to create a specific **time series experime
 This is launched with 
 ``` best = compare_models(sort = 'MAE') ``` <br>
 
-#### Darts
-
-
-#### Kats
