@@ -6,7 +6,9 @@ The project showcases data science skills and technologies that can help monitor
 The  machine learning aspects conducted with MLflow library.
 
 ### A. Set Up
-We will setup a **conda environment** , the main dependencies being dash, mlflow, tensorflow and sklearn. MLflow can be installed using pip. The requirements.txt file in this repository gives the complete list of set up requirements.
+We will setup a **conda environment** named rainenv for example with python 3.9 version
+```conda create --name rainenv python=3.9``` 
+ Then we install via pip libraries such as pandas, numpy , dash, mlflow, tensorflow and sklearn etc ML. The requirements.txt file in this repository gives the complete list of set up requirements.
 
 ### B. Data
 
