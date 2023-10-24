@@ -15,11 +15,11 @@ We will setup a **conda environment** named rainenv for example with python 3.9 
 The data has **natural dependent variables** like wind speed, wind direction, average temperature. The independent variable we want to **forecast is the level of precipitation in inches on a given date**. 
 
 ### C. Understanding the prediction problem 
-**Time series data is data collected on the same subject at different points in time**. Time Series Forecasting real use cases include  forecasting of 
-* sales for stock management
-* server ressource usage 
-* epidemic outbreaks and health concerns
-* stock prices etc...
+**Time series data is data collected on the same subject at different points in time**. Time Series Forecasting real use case examples : 
+* The Dow Jones Industrial Average index prices
+* The temperature in New York City
+* The unemployment rate in the USA
+* Website traffic through time and similar
 
 Time series forecasting can be univariate or multivariate. The methods used can be classic statitics like ARIMA and SARIMA or Machine learning methods like XGBoost, Random Forest or RNN, LSTM tec...
 
@@ -40,7 +40,13 @@ Here is an example of a preview with a custom choice of parameters :
 ![tracking](assets/mlflow_runs.png)
 
 ### F. Using libraries specific to time series forecasting 
+
 #### Pycaret 
 We use the **setup from pycaret.ts** to create a specific **time series experiment with automated training runs.**  Pycaret trains with a great number of models and identifies the best model according to the specified metric. 
 This is launched with 
 ``` best = compare_models(sort = 'MAE') ``` <br>
+
+#### Darts
+
+
+#### Kats
