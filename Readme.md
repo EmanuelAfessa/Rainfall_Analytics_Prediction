@@ -39,6 +39,6 @@ Here is an example of a preview with a custom choice of parameters :
 
 ### Using libraries specific to time series forecasting 
 #### Pycaret 
-We use the **setup from pycaret.ts** to create a specific **time series experiment with automated training runs.** 
+We use the **setup from pycaret.ts** to create a specific **time series experiment with automated training runs.**  Pycaret trains with a great number of models and identifies the best model according to the specified metric. 
 This is launched with 
 ``` best = compare_models(sort = 'MAE') ``` <br>
