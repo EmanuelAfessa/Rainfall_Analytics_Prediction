@@ -3,7 +3,7 @@
 The project showcases data science skills and technologies that can help monitor and predict volatile natural variables. Here we use python to build the back and front ends of a **simple web app for rainfall analytics and prediction** in the United States.
 <img src="assets/rainwatch_screenshot.png"/> 
 ## Machine learning aspects  
-The  machine learning aspects conducted with MLflow library.
+The  machine learning aspects conducted with MLflow, sklearn and keras library.
 
 ### A. Set Up
 We will setup a **conda environment** named rainenv for example with python 3.9 version
