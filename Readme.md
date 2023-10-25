@@ -39,10 +39,16 @@ Here is an example of a preview with a custom choice of parameters :
 
 ![tracking](assets/mlflow_runs.png)
 
-### F. Using libraries specific to time series forecasting 
+### F. upcoming improvements to this repo 
 
-#### Pycaret 
-We use the **setup from pycaret.ts** to create a specific **time series experiment with automated training runs.**  Pycaret trains with a great number of models and identifies the best model according to the specified metric. 
-This is launched with 
-``` best = compare_models(sort = 'MAE') ``` <br>
+#### Using libraries specific to time series   
+As mentionned, we are using MLFlow , sklearn and keras for machine learning tasks. However, to better adress the prediction problem we can will use specific time series libraries :
+* sktime 
+* pycaret.ts  
+* darts 
+* auto ts
+It is interesting to install these libraries via pip and do a review of pros and cons of their use in this porblem
+
+#### deploying the web app to cloud host
+We will showcase how to use a free render account to deploy this github account to a cloud host. 
 
