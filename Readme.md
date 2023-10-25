@@ -43,10 +43,10 @@ Here is an example of a preview with a custom choice of parameters :
 
 #### Using libraries specific to time series   
 As mentionned, we are using MLFlow , sklearn and keras for machine learning tasks. However, to better adress the prediction problem we will use specific time series libraries :
-* sktime 
-* pycaret.ts  
-* darts 
-* auto ts
+* **sktime** 
+* **pycaret.ts**  
+* **darts** 
+* **auto ts**
 It is interesting to install these libraries via pip and do a review of pros and cons of their use in this porblem
 
 #### deploying the web app to cloud host
