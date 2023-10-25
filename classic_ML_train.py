@@ -1,5 +1,5 @@
 ##############################################################
-# Script_goal : train models for rainwatch project
+# Script_goal : train deep ML models for rainwatch project
 # Date : 19/10/2023
 ##############################################################
 
@@ -24,7 +24,6 @@ from keras.models import Sequential
 
 # fetch models from models python file 
 from models import *
-
 import os
 import warnings
 import sys
