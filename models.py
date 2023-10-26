@@ -34,7 +34,7 @@ def nn_mlp1_model():
 
 def nn_mlp2_model():
     model = Sequential()
-    model.add(Dense(200,input_shape=(4,), activation='sigmoid'))
+    model.add(Dense(200,input_shape=(2,), activation='sigmoid'))
     model.add(Dense(200, activation='sigmoid'))
     model.add(Dense(200, activation='sigmoid'))
     model.add(Dense(1, activation='linear'))
@@ -44,10 +44,11 @@ def nn_mlp2_model():
 
 def nn_mlp3_model():
     model = Sequential()
-    model.add(Dense(128,input_shape=(4,), activation='relu'))
+    model.add(Dense(128,input_shape=(2,), activation='relu'))
     model.add(Dense(64, activation='relu'))
     model.add(Dense(32, activation='relu'))
     model.add(Dense(1, activation='linear'))
     #compile model 
     model.compile(loss='mean_squared_error', optimizer='adam', metrics=['mae'])
     return model
+
