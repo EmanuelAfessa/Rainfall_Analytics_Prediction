@@ -1,5 +1,5 @@
 ##############################################################
-# Script_goal : train deep ML models for rainwatch project
+# Script_goal : train classic ML models for rainwatch project
 # Date : 19/10/2023
 ##############################################################
 
