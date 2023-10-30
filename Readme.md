@@ -47,8 +47,12 @@ As mentionned, we are using MLFlow , sklearn and keras for machine learning task
 * **pycaret.ts**  
 * **darts** 
 * **auto ts**
-It is interesting to install these libraries via pip and do a review of pros and cons of their use in this porblem
+It is interesting to install these libraries via pip and do a review of pros and cons of their use in this problem
 
 #### 2. Deploying the web app to cloud host
 We will showcase how to use a free render account to deploy this github account to a cloud host. 
 
+#### 3. Add brief theory explanations 
+It is important to give context for some technical aspects, mainly :
+* Brief reminder of how a neural network works and how to improve the results
+* What are different losses(MAE, ) and when to use them 
