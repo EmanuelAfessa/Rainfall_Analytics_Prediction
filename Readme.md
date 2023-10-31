@@ -39,20 +39,21 @@ Here is an example of a preview with a custom choice of parameters :
 
 ![tracking](assets/mlflow_runs.png)
 
-### F. upcoming improvements to this repo 
+### F. Using and Explaining different methods and concepts specific to time series
 
-#### 1. Using libraries specific to time series   
-As mentionned, we are using MLFlow , sklearn and keras for machine learning tasks. However, to better adress the prediction problem we will use specific time series libraries :
-* **sktime** 
-* **pycaret.ts**  
-* **darts** 
-* **auto ts**
-It is interesting to install these libraries via pip and do a review of pros and cons of their use in this problem
+####  Naive Methods 
+Naive Methods such as assuming the predicted value at time ‘t’ to be the actual value of the variable at time ‘t-1’ or rolling mean of series, are used to weigh how well do the statistical models and machine learning models can perform and emphasize their need.
 
-#### 2. Deploying the web app to cloud host
-We will showcase how to use a free render account to deploy this github account to a cloud host. 
+We are interested in the mean of the  feature of interest and the deviation around it. It is also useful to see maximum and minimum temperature values. We can use the functionalities of np library here.
 
-#### 3. Add brief theory explanations 
-It is important to give context for some technical aspects, mainly :
-* Brief reminder of how a neural network works and how to improve the results
-* What are different losses(MAE, ) and when to use them 
+#### Autoregression 
+Autoregression is a time series model that uses observations from previous time steps as input to a regression equation to predict the value at the next time step. It is a very simple idea that can result in accurate forecasts on a range of time series problems. 
+
+#### ARIMA 
+A combination of autoregression and moving average models. 
+
+#### LSTM 
+
+It is a class of neural networks tailored to deal with temporal data. The neurons of RNN have a cell state/memory, and input is processed according to this internal state, which is achieved with the help of loops with in the neural network. There are recurring module(s) of ‘tanh’ layers in RNNs that allow them to retain information. However, not for a long time, which is why we need LSTM models.
+
+LSTM is special kind of recurrent neural network that is capable of learning long term dependencies in data. This is achieved because the recurring module of the model has a combination of four layers interacting with each other.
