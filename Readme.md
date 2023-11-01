@@ -39,7 +39,7 @@ Here is an example of a preview with a custom choice of parameters :
 
 ![tracking](assets/mlflow_runs.png)
 
-### F. Using and Explaining different methods and concepts specific to time series
+### F.  Methods and concepts specific to time series
 
 ####  Naive Methods 
 Naive Methods such as assuming the predicted value at time ‘t’ to be the actual value of the variable at time ‘t-1’ or rolling mean of series, are used to weigh how well do the statistical models and machine learning models can perform and emphasize their need.
@@ -57,3 +57,11 @@ A combination of autoregression and moving average models.
 It is a class of neural networks tailored to deal with temporal data. The neurons of RNN have a cell state/memory, and input is processed according to this internal state, which is achieved with the help of loops with in the neural network. There are recurring module(s) of ‘tanh’ layers in RNNs that allow them to retain information. However, not for a long time, which is why we need LSTM models.
 
 LSTM is special kind of recurrent neural network that is capable of learning long term dependencies in data. This is achieved because the recurring module of the model has a combination of four layers interacting with each other.
+
+### G.  Python libraries specific to time series
+
+#### Prophet
+
+#### Darts
+
+#### Pycaret
