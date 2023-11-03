@@ -60,8 +60,6 @@ LSTM is special kind of recurrent neural network that is capable of learning lon
 
 ### G.  Python libraries specific to time series
 
-#### Prophet
-
 #### Darts
 
-#### Pycaret
+A complete guide for time series forecasting is presented on famous airpassengers time series dataset. This notebook wil be used as a template for our rainfall prediction usecase. 
