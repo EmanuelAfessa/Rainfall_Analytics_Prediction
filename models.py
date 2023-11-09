@@ -11,8 +11,10 @@ from tensorflow import keras
 from keras.layers import Dense
 from keras.models import Sequential
 
+# BASELINE MODELS 
 
-# models 
+
+# CLASSIC MODELS 
 
 def xgb_model():
     model = xgb.XGBRegressor(objective ='reg:linear', colsample_bytree = 0.3, learning_rate = 0.1,max_depth = 5, alpha = 10, n_estimators = 10)
@@ -22,7 +24,7 @@ def rf_model():
     model = RandomForestRegressor()
     return model
 
-
+# NEURAL NETWORK MODELS
 def nn_mlp1_model():
     #design model
     model = Sequential()

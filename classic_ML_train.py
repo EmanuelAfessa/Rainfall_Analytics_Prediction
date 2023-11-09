@@ -84,13 +84,13 @@ if __name__ == "__main__":
     # Select and train model 
     ##################################
 
-    mlflow.set_experiment("rainwatch_classic_ML")
+    mlflow.set_experiment("CML_EXPERIMENT_01")
     #mlflow.set_experiment("HousePrice_deep learning")
     with mlflow.start_run():
         model = LinearRegression()       
 
         # for classic non neural network 
-        mlflow.sklearn.autolog(registered_model_name="ml_rainwatch")
+        mlflow.sklearn.autolog(registered_model_name="CML_E01_M01")
         model.fit(X_train , y_train)
         print("start training ...")
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
         mlflow.log_metric("mae", mae)
 
         #model_save_path = r'D:/archives_2023/house_price_prediction/models/model.pkl'
-        model_save_path = r'models/ml_rainwatch.pkl'
+        model_save_path = r'models/CML_E01/CML_E01_M01.pkl'
         print("model save ok")
 
         pickle.dump(model, open(model_save_path, 'wb'))
