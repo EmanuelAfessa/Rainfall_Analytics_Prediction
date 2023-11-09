@@ -15,7 +15,7 @@ To install everything needed use the following command :
 ```pip install -r requirements.txt```
 
 ## 3. Understanding the Prediction problem 
-
+we want to **forecast is the level of precipitation in inches on a given date at given US City**.
 **Time series data is data collected on the same subject at different points in time**. Thus, in time series forecasting one must pay attention to the time sequence and other time sensistive aspects : trends, seasonality, etc.. 
 
 To answer this problem, We have an open source Machine Learning pipeline with the following schema :
@@ -23,7 +23,7 @@ To answer this problem, We have an open source Machine Learning pipeline with th
 
 ## 4. Collecting data
 
-Data collected for United States meterological stations on a limited time range. The main raw data is weather.csv in data folder.  Here the independent variable we want to **forecast is the level of precipitation in inches on a given date at given US City**. The data has **natural dependent variables** like **wind speed, wind direction, average temperature,etc**.
+Data collected for United States meterological stations on a limited time range. The main raw data is weather.csv in data folder.  Here the independent variable is precipitation in inches. The data has **natural dependent variables** like **wind speed, wind direction, average temperature,etc**.
 
 ## 5. Storing and enriching the data 
 
