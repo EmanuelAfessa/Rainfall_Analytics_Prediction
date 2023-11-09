@@ -22,6 +22,7 @@ Time series forecasting can be univariate or multivariate. The methods used can 
 * Statitical methods  like ARIMA, SARIMA etc...
 * Classic Machine learning methods like XGBoost, Random Forest 
 * Deep Learning methods like RNN, LSTM,etc ...
+
 Regardless of the methods chosen, the machine learning pipeline is similar to this : 
  ![pipline](assets/pipeline_ml.png) 
 
