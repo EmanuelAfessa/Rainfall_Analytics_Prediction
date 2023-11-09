@@ -1,4 +1,5 @@
 # RAINWATCH : Rainfall analytics and prediction end to end ML project
+![demo](assets/demo_gif.gif) 
 ## 1. Project goal 
 In this project, we use python to build the back and front ends of a **simple web app for rainfall analytics and prediction** in the United States.
 <img src="assets/rainwatch_screenshot.png"/> 
