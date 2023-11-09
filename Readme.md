@@ -8,19 +8,23 @@ The  machine learning aspects conducted with MLflow, sklearn and keras library.
 ### A. Set Up
 We will setup a **conda environment** named rainenv for example with python 3.9 version
 ```conda create --name rainenv python=3.9``` 
- Then we install via pip libraries such as pandas, numpy , dash, mlflow, tensorflow and sklearn etc . The requirements.txt file in this repository gives the complete list of set up requirements.
+ Then we install via pip libraries such as pandas, numpy , dash, mlflow, tensorflow and sklearn etc . The requirements.txt file in this repository gives the complete list of set up requirements :
+ ![requirements](assets/briques_tech.png) 
 
 ### B. Data
 **Time series data is data collected on the same subject at different points in time**.Here the independent variable we want to **forecast is the level of precipitation in inches on a given date**. The data has **natural dependent variables** like **wind speed, wind direction, average temperature,etc**.  
 
 
-### C. Understanding the prediction problem 
+### C. Understanding the time series prediction problem 
 
 
 Time series forecasting can be univariate or multivariate. The methods used can be : 
 * Statitical methods  like ARIMA, SARIMA etc...
 * Classic Machine learning methods like XGBoost, Random Forest 
 * Deep Learning methods like RNN, LSTM,etc ...
+Regardless of the methods chosen, the machine learning pipeline is similar to this : 
+ ![pipline](assets/pipeline_ml.png) 
+
 There are also diffrent ways of using these methods :
 * Direct use of the generic python machine learning libraries like sklearn and keras
 * Using python libaries specific to time series manipulation like Darts
@@ -50,3 +54,6 @@ We monitor the training with MLFlow. In MLFLow, A machine learning experiment co
 ##### Tuning the existing models 
 
 ##### Using new better suited models and libraries for this specific ML problem 
+
+# G. Improvements 
+SQL data base to enable querys
