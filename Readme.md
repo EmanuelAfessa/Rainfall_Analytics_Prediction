@@ -9,6 +9,7 @@ We will setup a **conda environment** named rainenv for example with python 3.9 
 ```conda create --name rainenv python=3.9``` 
  Then we install via pip libraries such as pandas, numpy , dash, mlflow, tensorflow and sklearn etc . The requirements.txt file in this repository gives the complete list of set up requirements :
  ![requirements](assets/br_tech.png) 
+
 To install everything needed use the following command : 
 ```pip install -r requirements.txt```
 
@@ -21,9 +22,9 @@ To answer this problem, We have an open source Machine Learning pipeline with th
 
 ## 4. Collecting data
 
-Data collected for United States meterological stations on a limited time range. The main raw data is weather.csv in data fodler.  Here the independent variable we want to **forecast is the level of precipitation in inches on a given date at given US City**. The data has **natural dependent variables** like **wind speed, wind direction, average temperature,etc**.
+Data collected for United States meterological stations on a limited time range. The main raw data is weather.csv in data folder.  Here the independent variable we want to **forecast is the level of precipitation in inches on a given date at given US City**. The data has **natural dependent variables** like **wind speed, wind direction, average temperature,etc**.
 
-### 5. Storing and enriching the data 
+## 5. Storing and enriching the data 
 
 For the moment, there is no storage system. The input csvs are processed in pandas dataframes and used directly. We can easily add an SQL database for intermediate storage.
 
@@ -31,14 +32,14 @@ we enrich the original rainfall statistics with location data (longitude, latitu
 
 ## 6.Training and Tracking 
 
-Use the training scripts in the root folder. With **classic_ML_train.py** you have options of non deep learning models like linear regression, XGBRegressor  etc... The **deep_ML_train.py** presents different architectures of neural networks. All models are imported to the training scripts. Afterwards, training models are saved in pickle format in **models** format
+Use the training scripts in the root folder. With **classic_ML_train.py** you have options of non deep learning models like linear regression, XGBRegressor  etc... The **deep_ML_train.py** presents different architectures of neural networks. All models are imported to the training scripts. Afterwards, trained models are saved in pickle format in **models** format
  ![training](assets/archi.png) 
 
-We monitor the training with MLFlow. In MLFLow, A machine learning experiment contains multiple runs. Each run attempts to answer the prediction problem by minimizing a loss metric. To have standardized, comparable runs, the loss metric in one experiment stays the same. Thus, **the importance of choosing the appropriate metric for our specific prediction problem.**
+**We monitor the training runs with MLFlow.** In MLFLow, A machine learning experiment contains multiple runs. Each run attempts to answer the prediction problem by minimizing a loss metric. To have standardized, comparable runs, the loss metric in one experiment stays the same. Thus, **the importance of choosing the appropriate metric for our specific prediction problem.**
 
  ![monitoring](assets/mlflow_runs.png) 
 
-## 7. Deductions for ML experiments
+## 7. Deductions from ML experiments
 
 
 
