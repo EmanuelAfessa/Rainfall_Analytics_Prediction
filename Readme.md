@@ -1,6 +1,6 @@
 # RAINWATCH : Rainfall analytics and prediction end to end ML project
 ## Project goal 
-The project showcases data science skills and technologies that can help monitor and predict volatile natural variables. Here we use python to build the back and front ends of a **simple web app for rainfall analytics and prediction** in the United States.
+In this project, we use python to build the back and front ends of a **simple web app for rainfall analytics and prediction** in the United States.
 <img src="assets/rainwatch_screenshot.png"/> 
 ## Machine learning aspects  
 The  machine learning aspects conducted with MLflow, sklearn and keras library.
@@ -9,7 +9,7 @@ The  machine learning aspects conducted with MLflow, sklearn and keras library.
 We will setup a **conda environment** named rainenv for example with python 3.9 version
 ```conda create --name rainenv python=3.9``` 
  Then we install via pip libraries such as pandas, numpy , dash, mlflow, tensorflow and sklearn etc . The requirements.txt file in this repository gives the complete list of set up requirements :
- ![requirements](assets/briques_tech.png) 
+ ![requirements](assets/br_tech.png) 
 
 ### B. Data
 **Time series data is data collected on the same subject at different points in time**.Here the independent variable we want to **forecast is the level of precipitation in inches on a given date**. The data has **natural dependent variables** like **wind speed, wind direction, average temperature,etc**.  
